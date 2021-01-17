@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Shreyas Test</string>
     <string name="submit">Submit</string>
+    <string name="click_me">click me</string>
 </resources>
