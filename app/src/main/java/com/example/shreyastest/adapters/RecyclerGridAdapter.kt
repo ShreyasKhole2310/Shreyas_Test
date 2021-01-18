@@ -1,7 +1,7 @@
-package com.example.shreyastest.Adapters
+package com.example.shreyastest.adapters
 
 import androidx.recyclerview.widget.RecyclerView
-import com.example.shreyastest.Adapters.RecyclerGridAdapter.GridViewHolder
+import com.example.shreyastest.adapters.RecyclerGridAdapter.GridViewHolder
 import android.view.LayoutInflater
 import androidx.lifecycle.MutableLiveData
 import android.view.ViewGroup
@@ -14,14 +14,14 @@ import android.app.Activity
 import android.app.ActivityOptions
 import android.content.Context
 import android.content.Intent
-import com.example.shreyastest.Activity.ImageActivity
+import com.example.shreyastest.activity.ImageActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.request.target.Target
-import com.example.shreyastest.BeanClasses.Images
+import com.example.shreyastest.beanclasses.Images
 import java.util.stream.Collectors
 
 class RecyclerGridAdapter(private val context: Context) : RecyclerView.Adapter<GridViewHolder>() {

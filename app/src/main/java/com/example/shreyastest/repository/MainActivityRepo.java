@@ -1,13 +1,13 @@
-package com.example.shreyastest.Repository;
+package com.example.shreyastest.repository;
 
 import android.content.Context;
 import android.util.Log;
 
 import androidx.lifecycle.MutableLiveData;
 
-import com.example.shreyastest.BeanClasses.ApiSearchResponse;
-import com.example.shreyastest.BeanClasses.Images;
-import com.example.shreyastest.Interfaces.GetImageResponse;
+import com.example.shreyastest.beanclasses.ApiSearchResponse;
+import com.example.shreyastest.beanclasses.Images;
+import com.example.shreyastest.interfaces.GetImageResponse;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

@@ -1,11 +1,11 @@
-package com.example.shreyastest.Interfaces
+package com.example.shreyastest.interfaces
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.shreyastest.BeanClasses.Commentary
+import com.example.shreyastest.beanclasses.Commentary
 
 @Dao
 interface CommentDao {

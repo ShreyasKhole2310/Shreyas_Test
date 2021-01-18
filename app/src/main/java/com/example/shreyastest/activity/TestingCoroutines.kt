@@ -1,4 +1,4 @@
-package com.example.shreyastest.Activity
+package com.example.shreyastest.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

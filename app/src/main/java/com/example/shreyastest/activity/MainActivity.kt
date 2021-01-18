@@ -1,4 +1,4 @@
-package com.example.shreyastest.Activity
+package com.example.shreyastest.activity
 
 import android.animation.ObjectAnimator
 import android.content.Intent
@@ -11,11 +11,10 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.shreyastest.Adapters.RecyclerGridAdapter
-import com.example.shreyastest.BeanClasses.Images
+import com.example.shreyastest.adapters.RecyclerGridAdapter
+import com.example.shreyastest.beanclasses.Images
 import com.example.shreyastest.R
-import com.example.shreyastest.ViewModel.MainActivityVm
+import com.example.shreyastest.viewmodel.MainActivityVm
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable

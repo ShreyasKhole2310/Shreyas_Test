@@ -1,4 +1,4 @@
-package com.example.shreyastest.Adapters
+package com.example.shreyastest.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.shreyastest.BeanClasses.Commentary
+import com.example.shreyastest.beanclasses.Commentary
 import com.example.shreyastest.R
 
 class CommentListAdapter internal constructor(context: Context): RecyclerView.Adapter<CommentListAdapter.CommentViewHolder>(){

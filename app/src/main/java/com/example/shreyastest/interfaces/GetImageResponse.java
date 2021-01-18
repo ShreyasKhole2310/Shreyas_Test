@@ -1,6 +1,6 @@
-package com.example.shreyastest.Interfaces;
+package com.example.shreyastest.interfaces;
 
-import com.example.shreyastest.BeanClasses.ApiSearchResponse;
+import com.example.shreyastest.beanclasses.ApiSearchResponse;
 
 import io.reactivex.Single;
 import retrofit2.http.GET;

@@ -1,12 +1,12 @@
-package com.example.shreyastest.DatabaseClasses
+package com.example.shreyastest.databaseclasses
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.example.shreyastest.BeanClasses.Commentary
-import com.example.shreyastest.Interfaces.CommentDao
+import com.example.shreyastest.beanclasses.Commentary
+import com.example.shreyastest.interfaces.CommentDao
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

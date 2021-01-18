@@ -1,4 +1,4 @@
-package com.example.shreyastest.Activity
+package com.example.shreyastest.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -9,9 +9,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.shreyastest.BeanClasses.Commentary
-import com.example.shreyastest.ViewModel.CommentaryVm
-import com.example.shreyastest.Adapters.CommentListAdapter
+import com.example.shreyastest.beanclasses.Commentary
+import com.example.shreyastest.viewmodel.CommentaryVm
+import com.example.shreyastest.adapters.CommentListAdapter
 import com.example.shreyastest.R
 import kotlinx.android.synthetic.main.activity_image.*
 

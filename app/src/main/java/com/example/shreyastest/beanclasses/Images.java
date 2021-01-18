@@ -1,4 +1,4 @@
-package com.example.shreyastest.BeanClasses;
+package com.example.shreyastest.beanclasses;
 
 import com.google.gson.annotations.SerializedName;
 

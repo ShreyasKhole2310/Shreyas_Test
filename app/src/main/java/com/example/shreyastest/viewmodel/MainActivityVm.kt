@@ -1,10 +1,10 @@
-package com.example.shreyastest.ViewModel
+package com.example.shreyastest.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.example.shreyastest.BeanClasses.Images
-import com.example.shreyastest.Repository.MainActivityRepo
+import com.example.shreyastest.beanclasses.Images
+import com.example.shreyastest.repository.MainActivityRepo
 
 class MainActivityVm(application: Application) : AndroidViewModel(application) {
     private val mainActivityRepo: MainActivityRepo

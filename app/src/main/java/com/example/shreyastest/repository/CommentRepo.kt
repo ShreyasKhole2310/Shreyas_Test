@@ -1,8 +1,8 @@
-package com.example.shreyastest.Repository
+package com.example.shreyastest.repository
 
 import androidx.lifecycle.LiveData
-import com.example.shreyastest.BeanClasses.Commentary
-import com.example.shreyastest.Interfaces.CommentDao
+import com.example.shreyastest.beanclasses.Commentary
+import com.example.shreyastest.interfaces.CommentDao
 
 class CommentRepo(private val commentDao: CommentDao) {
     // Room executes all queries on a separate thread.

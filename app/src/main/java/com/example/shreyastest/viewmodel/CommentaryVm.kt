@@ -1,14 +1,14 @@
-package com.example.shreyastest.ViewModel
+package com.example.shreyastest.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.shreyastest.BeanClasses.Commentary
-import com.example.shreyastest.Interfaces.CommentDao
-import com.example.shreyastest.DatabaseClasses.CommentRoomDatabase
-import com.example.shreyastest.Repository.CommentRepo
+import com.example.shreyastest.beanclasses.Commentary
+import com.example.shreyastest.interfaces.CommentDao
+import com.example.shreyastest.databaseclasses.CommentRoomDatabase
+import com.example.shreyastest.repository.CommentRepo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
