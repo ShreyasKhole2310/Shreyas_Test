@@ -36,17 +36,17 @@ class MainActivity : AppCompatActivity() {
         etSearchText = findViewById(R.id.etSearchText)
         progress_horizontal = findViewById(R.id.progress_horizontal)
         gridAdapter = RecyclerGridAdapter(this)
-        gridView.setLayoutManager(GridLayoutManager(this, 5))
+        gridView.layoutManager = GridLayoutManager(this, 5)
         mainActivityVm = ViewModelProvider(this).get(MainActivityVm::class.java)
         mainActivityVm!!.imagesMutableLiveData.observe(this, Observer { lstImages: List<Images> ->
             gridAdapter!!.setLstImages(lstImages)
-            gridView.setAdapter(gridAdapter)
-            progress_horizontal.setMax(gridAdapter!!.getLstImages()!!.size * 100)
+            gridView.adapter = gridAdapter
+            progress_horizontal.max = gridAdapter!!.getLstImages()!!.size * 100
         })
         gridAdapter!!.loadingProgress.observe(this, Observer { value: Int ->
 //            progress_horizontal.setProgress(value);
             val animation = ObjectAnimator.ofInt(progress_horizontal, "progress",
-                    progress_horizontal.getProgress(), value * 100)
+                    progress_horizontal.progress, value * 100)
             animation.duration = 500
             animation.interpolator = DecelerateInterpolator()
             animation.start()
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe { result: String? ->
                             mainActivityVm!!.searchWord(result)
-                            progress_horizontal.setVisibility(View.VISIBLE)
+                            progress_horizontal.visibility = View.VISIBLE
                         }
         )
 
